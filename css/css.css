@@ -1,0 +1,49 @@
+body{
+    font-size: 1.5em;
+    font-family: Helvetica,Tahoma,Helvetica,Verdana,sans-serif
+}
+
+h1 {
+    font-size: 3.5em;
+    text-transform: uppercase;
+}
+
+a, a:visited, a:link, a:hover, a:active {
+  color: #000000;
+}
+
+.air-left {
+    padding-left: 450px;
+}
+
+section{
+    width: 60%;
+    min-height: 500px;
+    background-repeat: no-repeat;
+    margin: 10% auto auto auto;
+}
+
+#icon-list {
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+#icon-list > div {
+    margin: 0 17px;
+    text-align: center;
+}
+
+
+.logo-cncf {
+    display: block;
+    width: 94px;
+    height: 94px;
+    background-size: 94px 94px;
+    background-repeat: no-repeat;
+}
+
+footer {
+    margin-top: 2em;
+    text-align: center;
+}

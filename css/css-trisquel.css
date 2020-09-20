@@ -1,0 +1,23 @@
+body{
+    background-color: #aa0088;
+    background-color: #70236a;
+    color: #ffffff;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+
+a, a:visited, a:link, a:hover, a:active {
+  color: #ffffff;
+}
+
+section{
+    background-image: url("../logo-trisquel.png");
+    background-image: url("../logo-trisquel-azul.png");
+}
+
+.logo-cncf {
+    background-image: url("../cncf-icon-white.png");
+}

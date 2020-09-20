@@ -1,0 +1,16 @@
+body{
+    background-color: #ffffff;//#176f96;
+}
+
+h1 {
+    color: #176f96;
+}
+
+section{
+    background-image: url("../logo.png");
+}
+
+
+.logo-cncf {
+    background-image: url("../cncf-icon-black.png");
+}
