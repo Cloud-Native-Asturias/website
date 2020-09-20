@@ -5,8 +5,10 @@ body{
 }
 
 h1 {
-    font-size: 3.5em;
+    font-size: 3em;
     text-transform: uppercase;
+    margin-bottom: 2em;
+    padding-top: 1em;
 }
 
 a, a:visited, a:link, a:hover, a:active {
