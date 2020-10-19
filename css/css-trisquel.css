@@ -14,10 +14,9 @@ a, a:visited, a:link, a:hover, a:active {
 }
 
 section{
-    background-image: url("../logo-trisquel.png");
-    background-image: url("../logo-trisquel-azul.png");
+    background-image: url("../imgs/logo.png");
 }
 
 .logo-cncf {
-    background-image: url("../cncf-icon-white.png");
+    background-image: url("../imgs/cncf-icon-white.png");
 }
