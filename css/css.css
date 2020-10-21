@@ -37,6 +37,12 @@ section{
     text-align: center;
 }
 
+#logo-cna {
+    width: 10em;
+    margin: 0;
+    float: left;
+}
+
 
 .logo-cncf {
     display: block;
