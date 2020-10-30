@@ -43,6 +43,9 @@ section{
     float: left;
 }
 
+.lead {
+  text-align: center;
+}
 
 .logo-cncf {
     display: block;
