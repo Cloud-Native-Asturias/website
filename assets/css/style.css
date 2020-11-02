@@ -101,7 +101,8 @@ h1, h2, h3, h4, h5, h6 {
 #header h2 {
   color: #eee;
   margin-bottom: 40px;
-  font-size: 26px;
+  font-size:1.75em;
+  text-align: center;
 }
 
 #header .countdown {
