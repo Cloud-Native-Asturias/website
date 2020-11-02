@@ -86,7 +86,7 @@ h1, h2, h3, h4, h5, h6 {
 #header {
   position: relative;
   width: 100%;
-  padding: 100px 0;
+  padding: 170px 0;
   /* countdown */
 }
 
@@ -101,7 +101,7 @@ h1, h2, h3, h4, h5, h6 {
 #header h2 {
   color: #eee;
   margin-bottom: 40px;
-  font-size: 22px;
+  font-size: 26px;
 }
 
 #header .countdown {
@@ -251,7 +251,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .social-links a {
-  font-size: 16px;
+  font-size: 37px;
   display: inline-block;
   color: #fff;
   line-height: 1;
@@ -259,8 +259,8 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 3px;
   border-radius: 50%;
   text-align: center;
-  width: 48px;
-  height: 48px;
+  width: 70px;
+  height: 70px;
   transition: 0.3s;
   border: 1px solid rgba(255, 255, 255, 0.5);
 }
@@ -553,3 +553,9 @@ section {
 #footer .credits a {
   color: #36d8c3;
 }
+
+
+/* .icofont-github-alt {
+  background-image: url('../img/94933-middle.png');
+  width: 10px;
+} */
