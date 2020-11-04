@@ -86,16 +86,15 @@ h1, h2, h3, h4, h5, h6 {
 #header {
   position: relative;
   width: 100%;
-  padding: 170px 0;
+  padding: 128px 0;
   /* countdown */
 }
 
 #header h1 {
-  margin: 0 0 10px 0;
-  font-size: 48px;
-  font-weight: 700;
-  line-height: 56px;
-  color: #fff;
+  color: #eee;
+  margin-bottom: 40px;
+  font-size:1.75em;
+  text-align: center;
 }
 
 #header h2 {
@@ -287,18 +286,17 @@ section {
   padding-bottom: 30px;
 }
 
-.section-title h2 {
+.section-title h1 {
   text-align: center;
 
   font-size: 32px;
   font-weight: bold;
-  text-transform: uppercase;
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
 }
 
-.section-title h2::after {
+.section-title h1::after {
   content: '';
   position: absolute;
   display: block;
