@@ -2,7 +2,8 @@
   "use strict";
 
   const englishConfig = {
-      'Elevating the Asturian technological landscape through world-wide collaboration': "Elevating the Asturian technological landscape through world-wide collaboration",
+      'title': "Elevating the Asturian technological landscape through ",
+      'enlace': "world-wide collaboration",
       'aboutus': 'About us',
       'parrafo1': 'What do we do?',
       'parrafo2': 'We help promote the technology industry in Asturias by reducing the gap between our technology professionals and a broader international network of professionals around the world.',
@@ -16,7 +17,8 @@
   }
 
   const spanishConfig = {
-      'Elevating the Asturian technological landscape through world-wide collaboration': "Elevamos el horizonte tecnologico asturiano a traves de colaboracion internacional",
+      'title': "Elevamos el horizonte tecnológico asturiano a través de ",
+      'enlace': "colaboración internacional ",
       'aboutus': "Sobre nosotros",
       'parrafo1': '¿Qué hacemos?',
       'parrafo2': 'Ayudamos a promover la industria de la tecnología en Asturias reduciendo la brecha entre nuestros profesionales de la tecnología y profesionales de todo el mundo.',
