@@ -1,39 +1,31 @@
-/**
-* Template Name: Maundy - v2.1.0
-* Template URL: https://bootstrapmade.com/maundy-free-coming-soon-bootstrap-theme/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 !(function($) {
   "use strict";
 
   const englishConfig = {
       'Elevating the Asturian technological landscape through world-wide collaboration': "Elevating the Asturian technological landscape through world-wide collaboration",
       'aboutus': 'About us',
-      'parrafo1': 'Asturias has been suffering from a pesimistic speech that doesn\'t make justice to all of us. It is true that our recent history and the current conjuncture aren\'t ideal but we must overcome this situation. From the Cloud Native Asturias we do not want to let this region to go bust without fighting for it.',
-      'parrafo2.1': 'The',
-      'parrafo2.2': 'CNCF',
-      'parrafo2.3': 'give us the oportunity to expose our potential as a region, and from Cloud Native Asturias we accept the challenge. We must portray our potential through a unified, organized and simple message.',
-      'parrafo3': '',
-      'parrafo4': 'Asturias produces thousands of Software Developers a year that come out of the two faculties. Although lots of them have pursued a career abroad, a great number of them whish to return home. No estamos creando una marca Asturias alrededor de todo este potencial, y estamos perdiendo oportunidades.',
-      'parrafo5': 'Cloud Native Asturias recupera y potencia ese espíritu de unidad, tan latente en estos tiempos de distanciamiento social. Queremos enviar un mensaje unificado al mundo planteando un enfoque de abajo hacia arriba en el que cada uno de nosotros cuenta. Tenemos que salir de nuestra zona de confort y posicionarnos en el ámbito global. Debemos expandir nuestra zona de influencia y abarcar territorios que van más allá de nuestras fronteras, de tal manera que podamos aprender de otros pero teniendo la oportunidad de que nuestro mensaje también sea escuchado.Cada uno de nosotros tenemos una historia que contar que puede inspirar o servir de guía para el resto. Queremos conoceros a todos. Tenemos que visibilizar quiénes somos y lo que hacemos, y debemos explotar los recursos que tenemos a mano.',
-      'parrafo6': 'Somos dos los que comenzamos este camino de Cloud Native Asturias, pero serán muchos los que se nos unirán por el camino. Participa, cuéntanos a qué te dedicas, y hazte notar. Al amparo de la red global Cloud Native Foundation haremos ruido y nos conocerán. Tenemos que poner a Asturias en el mapa tecnológico.',
-      'parrafo7': 'Te esperamos.'
+      'parrafo1': 'What do we do?',
+      'parrafo2': 'We help promote the technology industry in Asturias by reducing the gap between our technology professionals and a broader international network of professionals around the world.',
+      'parrafo3': 'Why do we do it?',
+      'parrafo4': 'In recent decades, traditional Asturian industries and sectors have been losing strength and relevance. It is time to shake it all up and place the tech industry as the main driver of our region. We have talent and great potential, so we must act locally and think globally.',
+      'parrafo5': 'How do we do it?',
+      'parrafo6': 'We follow a bottom-up approach to empower our tech professionals. Cloud Native Asturias provides them the international framework needed to shine and be heard beyond our frontiers. We are all in the same boat and we can’t do it alone.',
+      'parrafo7': 'When is it a good time to do it?',
+      'parrafo8': 'NOW! Join us! Reach out and start creating impact from day 1.'
 
   }
 
   const spanishConfig = {
       'Elevating the Asturian technological landscape through world-wide collaboration': "Elevamos el horizonte tecnologico asturiano a traves de colaboracion internacional",
       'aboutus': "Sobre nosotros",
-      'parrafo1': 'Asturias ha sido y es víctima de un discurso pesimista, de resignación y muy cómodo, que nos hace a todos los asturianos (y más a los profesionales) un flaco favor. Es cierto, que la coyuntura y la historia reciente de la región no han sido las mejores, pero tenemos que actuar. Debemos actuar. Desde esta organización no queremos ser cómplices de cómo nuestra región se desmantela poco a poco sin siquiera luchar por ella.',
-      'parrafo2.1': 'La',
-      'parrafo2.2': 'CNCF',
-      'parrafo2.3': 'nos brinda una oportunidad de visibilizar el potencial asturiano y desde Cloud Native Asturias recogemos el guante. Necesitamos proyectar nuestro potencial y el potencial de esta región de una manera unificada, organizada y simple. Queremos ser en todo momento el altavoz de todos (y todas) las profesionales e instituciones asturianas que compartan la misma pasión por la tecnología cloud (o en la nube).',
-      'parrafo3': 'Os preguntareis ¿por qué cloud?. Desde Cloud Native Asturias entendemos la tecnología en la nube (o tecnología Cloud) como un elemento esencial en cualquier tipo de proyecto informático que se desarrolle hoy en día. Tiene un elemento crítico y central con el que cualquier profesional dedicado a la industria de la informática tendrá que lidiar en mayor o menor medida. Y es por ello una herramienta que tiene la capacidad de unir a una gran parte de los profesionales de este sector.',
-      'parrafo4': 'Asturias cuenta con dos escuelas de ingeniería informática que han generado en las últimas décadas millares de profesionales. Muchos se han visto obligados a partir, y otros muchos buscan suerte en casa, pero lo que es indiscutible es que esos profesionales son un activo propio que no estamos explotando a nivel Asturias. No estamos creando una marca Asturias alrededor de todo este potencial, y estamos perdiendo oportunidades.',
-      'parrafo5': 'Cloud Native Asturias recupera y potencia ese espíritu de unidad, tan latente en estos tiempos de distanciamiento social. Queremos enviar un mensaje unificado al mundo planteando un enfoque de abajo hacia arriba en el que cada uno de nosotros cuenta. Tenemos que salir de nuestra zona de confort y posicionarnos en el ámbito global. Debemos expandir nuestra zona de influencia y abarcar territorios que van más allá de nuestras fronteras, de tal manera que podamos aprender de otros pero teniendo la oportunidad de que nuestro mensaje también sea escuchado.Cada uno de nosotros tenemos una historia que contar que puede inspirar o servir de guía para el resto. Queremos conoceros a todos. Tenemos que visibilizar quiénes somos y lo que hacemos, y debemos explotar los recursos que tenemos a mano.',
-      'parrafo6': 'Somos dos los que comenzamos este camino de Cloud Native Asturias, pero serán muchos los que se nos unirán por el camino. Participa, cuéntanos a qué te dedicas, y hazte notar. Al amparo de la red global Cloud Native Foundation haremos ruido y nos conocerán. Tenemos que poner a Asturias en el mapa tecnológico.',
-      'parrafo7': 'Te esperamos.'
+      'parrafo1': '¿Qué hacemos?',
+      'parrafo2': 'Ayudamos a promover la industria de la tecnología en Asturias reduciendo la brecha entre nuestros profesionales de la tecnología y profesionales de todo el mundo.',
+      'parrafo3': '¿Por qué lo hacemos?',
+      'parrafo4': 'En las últimas décadas, las industrias y sectores tradicionales asturianos han ido perdiendo fuerza y relevancia. Es hora de sacudirlo todo y colocar a la industria tecnológica como el principal impulsor de nuestra región. Tenemos talento y un gran potencial, por lo que debemos actuar localmente y pensar globalmente.',
+      'parrafo5': '¿Cómo lo hacemos?',
+      'parrafo6': 'Seguimos un enfoque de abajo hacia arriba para empoderar a nuestros profesionales de la tecnología. Cloud Native Asturias proporciona el marco internacional necesario para brillar y hacerse oír más allá de nuestras fronteras. Todos estamos en el mismo barco y no podemos hacerlo solos.',
+      'parrafo7': '¿Cuándo es un buen momento para hacerlo?',
+      'parrafo8': '¡AHORA! ¡Únete a nosotros! Ponte en contacto y comienza a generar impacto desde ya.'
   }
 
   const elements = document.querySelectorAll("[data-i18n]");
