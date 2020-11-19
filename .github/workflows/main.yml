@@ -34,6 +34,6 @@ jobs:
           # FTP account password
           ftp-password: ${{secrets.WEB_FTP_PWD}}
           # The local folder to copy, defaults to root project folder
-          local-dir: ./public_html # optional, default is ./
+          local-dir: /public_html # optional, default is ./
           # Passes through options into git-ftp
           #git-ftp-args: # optional
