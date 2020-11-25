@@ -11,6 +11,10 @@ If you represent an institution from Asturias that focuses on new technology, Di
 
 As a non-profit organisation our first and foremost objective is to engage your institution as a non-economical supporter. Although money will be required to organise events, that's not the primary focus. Instead, the Cloud Native Asturias foundation seeks to join all Asturian institutions together so that we can send the strongest message to our international audience. We are prepared, we are ready, so they only need to see us in action.
 
+## Code of Conduct
+Cloud Native Asturias follows the [Official CNCF Code of Conduct](https://github.com/cncf/foundation/blob/master/code-of-conduct.md)
+for all the events. 
+
 ## Founders
 - Marcos F. Lobo [@arrayexception](https://twitter.com/arrayexception)
 - Ángel Suárez [@Titogelo](https://twitter.com/Titogelo)
