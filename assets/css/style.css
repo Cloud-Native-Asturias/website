@@ -558,3 +558,10 @@ section {
   background-image: url('../img/94933-middle.png');
   width: 10px;
 } */
+
+.logo-cncf{
+  background-image: url('../img/cncf-icon-white.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 60%;
+}
