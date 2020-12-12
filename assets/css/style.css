@@ -265,9 +265,13 @@ h1, h2, h3, h4, h5, h6 {
   border: 1px solid rgba(255, 255, 255, 0.5);
 }
 
-#header .social-links a:hover {
+#header .social-links a:hover:not(.logo-cncf) {
   background: #24b7a4;
   border-color: #24b7a4;
+}
+
+#header .social-links a.logo-cncf:hover {
+  background-color: #24b7a4;
 }
 
 /*--------------------------------------------------------------
@@ -558,3 +562,10 @@ section {
   background-image: url('../img/94933-middle.png');
   width: 10px;
 } */
+
+.logo-cncf{
+  background-image: url('../img/cncf-icon-white.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 60%;
+}
