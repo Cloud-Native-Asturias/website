@@ -12,7 +12,8 @@
       'parrafo5': 'How do we do it?',
       'parrafo6': 'We follow a bottom-up approach to empower our tech professionals. Cloud Native Asturias provides them the international framework needed to shine and be heard beyond our frontiers. We are all in the same boat and we can’t do it alone.',
       'parrafo7': 'When is it a good time to do it?',
-      'parrafo8': 'NOW! Join us! Reach out and start creating impact from day 1.'
+      'parrafo8': 'NOW! Join us! Reach out and start creating impact from day 1.',
+      'callforpapers': 'Call for papers'
 
   }
 
@@ -27,7 +28,8 @@
       'parrafo5': '¿Cómo lo hacemos?',
       'parrafo6': 'Seguimos un enfoque de abajo hacia arriba para empoderar a nuestros profesionales de la tecnología. Cloud Native Asturias proporciona el marco internacional necesario para brillar y hacerse oír más allá de nuestras fronteras. Todos estamos en el mismo barco y no podemos hacerlo solos.',
       'parrafo7': '¿Cuándo es un buen momento para hacerlo?',
-      'parrafo8': '¡AHORA! ¡Únete a nosotros! Ponte en contacto y comienza a generar impacto desde ya.'
+      'parrafo8': '¡AHORA! ¡Únete a nosotros! Ponte en contacto y comienza a generar impacto desde ya.',
+      'callforpapers': 'Envianos tu propuesta'
   }
 
   const elements = document.querySelectorAll("[data-i18n]");
